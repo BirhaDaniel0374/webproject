@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator_body">
+        <div class="content">
+            <div class="homebtn"></div>
+            <div class="calculator_item">
+                <input type="text" id="result" >
+                <button class="gray" value="C" onclick="Deletelaast()">C</button>
+                <button class="gray" value="AC" onclick="clearResult()">AC</button>
+                <button class="gray" value="%" onclick="display('%')">%</button>
+                <button class="yellow" value="/" onclick="display('/')">/</button>
+                <button class="dark" value="7" onclick="display('7')">7</button>
+                <button class="dark" value="8" onclick="display('8')">8</button>
+                <button class="dark" value="9" onclick="display('9')">9</button>
+                <button class="yellow" value="*" onclick="display('*')">*</button>
+                <button class="dark" value="4" onclick="display('4')">4</button>
+                <button class="dark" value="5" onclick="display('5')">5</button>
+                <button class="dark" value="6" onclick="display('6')">6</button>
+                <button class="yellow" value="-" onclick="display('-')">-</button>
+                <button class="dark" value="1" onclick="display('1')">1</button>
+                <button class="dark"value="2" onclick="display('2')">2</button>
+                <button class="dark" value="3" onclick="display('3')">3</button>
+                <button class="yellow" value="+" onclick="display('+')">+</button>
+                <button class="dark"value="0" onclick="display('0')">0</button>
+                <button class="dark"value="00" onclick="display('00')">00</button>
+                <button class="dark"value="." onclick="display('.')">.</button>
+                <button class="yellow" value="=" onclick="calculate()">=</button>
+           </div>
+           <div class="home_button"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
